@@ -26,4 +26,9 @@ And visit http://localhost:8787 in your browser. Log in with user
 `rstudio` and password `d13579`.
 
 
+In terminal,
+1. 'make clean' to remove all figures and report
+2. 'make' to generate all figures and report
+3. 'make report' to generate report only, report is located at root directionary
+
 
