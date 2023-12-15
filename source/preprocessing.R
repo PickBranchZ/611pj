@@ -21,6 +21,7 @@ mydata <- mydata%>%
   mutate(Profit=botl_profit*Bottles.Sold) %>%
   mutate(tol_profit=sum(Profit)/1e6) %>%
   mutate(week=rep(1:209, each=7)[mydate]) %>%
+  group_by(Item.Number, week) %>%
   mutate(week_profit=sum(Profit))
   
 
