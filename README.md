@@ -1,5 +1,5 @@
 # 611 Data Science Project of Iowa Liquor Sale -longfeiz
-Last Revision Date: 10/29/2023
+Last Revision Date: 12/14/2023
 
 ## Background
 According to the surveillance report from the National Institute on Alcohol Abuse and Alcoholism, alcoholic beverages sales increased while the most sales of food and other drinks decreased during the pandemic of COVID-19. Hence, we are particularly interested in the economical impacts due to the pandemic. Through investigation on alcohol sales in Iowa, we try to figure out some unrevealed influences of the pandemic.
