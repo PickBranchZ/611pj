@@ -113,7 +113,7 @@ glm2 = summary(fit_step)$coefficients
 
 #decision tree for general popularity
 fit <- rpart(Popularity~.-Item.Number, data = training_set, method = 'class')
-rpart.plot(fit,cex = 0.5)
+#rpart.plot(fit,cex = 0.5)
 
 predict_unseen <-predict(fit, test_set, type = 'class')
 table_mat <- table(test_set$Popularity, predict_unseen)
@@ -139,7 +139,7 @@ ggsave(p5, filename = "figures/fig5_tree1.png", height = 6, width = 10)
 
 #decision tree for popularity during covid
 fit <- rpart(PopularityC~.-Item.Number, data = training_setc, method = 'class')
-rpart.plot(fit,cex = 0.5)
+#rpart.plot(fit,cex = 0.5)
 
 predict_unseen <-predict(fit, test_setc, type = 'class')
 table_mat <- table(test_setc$PopularityC, predict_unseen)
